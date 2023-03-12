@@ -1,0 +1,36 @@
+<h2>Top sản phẩm bán chạy <span class="badge badge-secondary chumaudo">Hot</span></h2>
+<div class="row">
+    <div class="col-md-3" ng-repeat="t in listLaptop">
+        <div class="thumbnail fixhinhanhlaptop">
+            <a >
+                <img src="./ImagesAsm/{{t.image}}" alt="Lights" style="width:300px; height: 260px;">
+                <div class="caption">
+                    <center>
+                        <a href="#chitietlaptop/{{t.id}}">[Mới 100%]{{t.name}} ({{t.cpu}}, {{t.ram}}, {{t.disk}},{{t.manHinh}}) </a>
+                   <strong><a style="color: red;">{{t.price}}đ </a></strong>
+                        <del><a style="color:dimgray;">{{t.oldPrice}}đ</a></del>
+                    </center>
+                </div>
+            </a>
+        </div>
+    </div>
+
+</div>
+<h2>Sản phẩm mới nhất <span class="badge badge-secondary chumaudo">New</span></h2>
+<div class="row">
+    <div class="col-md-3">
+        <div class="thumbnail fixhinhanhlaptop">
+            <a href="/ImagesAsm/thinkpadx1nano.png">
+                <img src="/ImagesAsm/thinkpadx1nano.png" alt="Lights" style="width:300px; height: 260px;">
+                <div class="caption">
+                    <center>
+                        <p>[Mới 100%] Lenovo Thinkpad X1 Nano Gen 1 (Core i7-1160G7, 16GB, 512GB, Intel Iris Xe,
+                            13.3" 2K) </p>
+                        <strong><a style="color: red;">21.290.000đ </a></strong>
+                        <del><a style="color:dimgray;">25.890.000đ</a></del>
+                    </center>
+                </div>
+            </a>
+        </div>
+    </div>
+</div>

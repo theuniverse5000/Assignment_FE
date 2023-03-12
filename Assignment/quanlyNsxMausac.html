@@ -1,0 +1,69 @@
+<form class="row g-3" method="post">
+    <h1>Nhà sản xuất</h1>
+    <div class="col-md-7 formdangkytaikhoan">
+        <label for="" class="form-label">ID</label>
+        <input type="text" class="form-control" id="idNsx" ng-model="idNsx" placeholder="ID Nhà sản xuất">
+    </div>
+    <div class="col-md-7 formdangkytaikhoan">
+        <label for="" class="form-label">Tên</label>
+        <input type="text" class="form-control" id="tenNsx" ng-model="tenNsx" placeholder="Tên nhà sản xuất">
+    </div>
+    
+</form>
+<button type="submit" class="btn btn-warning" ng-click="addNsx()">Add</button> 
+<button type="button" class="btn btn-warning" ng-click="updateNsx()">Update</button>
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">ID</th>
+            <th scope="col">Tên</th>
+            <th scope="col">Hành động</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr ng-repeat="n in listNsx">
+            <th scope="row">{{n.id}}</th>
+            <td>{{n.ten}}</td>
+            <td>
+                <button type="button" class="btn btn-warning" ng-click="detailNsx(n.id)">Detail</button>
+                <button type="button" class="btn btn-warning" ng-click="deleteNsx(n.id)">Delete</button>
+                
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+<form class="row g-3" method="post">
+    <h1>Màu sắc</h1>
+    <div class="col-md-7 formdangkytaikhoan">
+        <label for="" class="form-label">ID</label>
+        <input type="text" class="form-control" id="idMs" ng-model="idMs" placeholder="ID ">
+    </div>
+    <div class="col-md-7 formdangkytaikhoan">
+        <label for="" class="form-label">Tên</label>
+        <input type="text" class="form-control" id="tenMs" ng-model="tenMs" placeholder="Tên">
+    </div>
+    
+</form>
+<button type="submit" class="btn btn-warning" ng-click="addMs()">Add</button> 
+<button type="button" class="btn btn-warning" ng-click="updateMs()">Update</button>
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">ID</th>
+            <th scope="col">Màu sắc</th>
+            <th scope="col">Hành động</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr ng-repeat="m in listMs">
+            <th scope="row">{{m.id}}</th>
+            <td>{{m.tenMauSac}}</td>
+            <td>
+                <button type="button" class="btn btn-warning" ng-click="detailMs(m.id)">Detail</button>
+                <button type="button" class="btn btn-warning" ng-click="deleteMs(m.id)">Delete</button>
+                
+            </td>
+        </tr>
+    </tbody>
+</table>

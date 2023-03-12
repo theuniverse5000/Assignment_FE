@@ -1,0 +1,136 @@
+.anhlaptop {
+    width: 100px;
+    height: 140px;
+    font-size: small;
+    margin: auto;
+}
+
+.themgiohang {
+    font-size: 5px;
+    color: chartreuse;
+    background-color: black;
+}
+.giohang {
+    padding-left: 110px;
+}
+.backgroundindex {
+    background-color: rgb(255, 255, 255);
+}
+
+.findlaptop {
+    margin-top: 30px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    width: 700px;
+    height: 60px;
+}
+
+.fixchu {
+    margin-top: 0px;
+    padding-bottom: 10px;
+    height: 40px;
+    text-align: center;
+}
+
+.chutrangchu {
+    padding-left: 60px;
+
+}
+
+.fixchugiohang {
+    padding-left: 1px;
+}
+
+.footer {
+    background-color: antiquewhite;
+    color: red;
+}
+
+.fixhinhanhlaptop {
+    background-color: aliceblue;
+    margin-top: 20px;
+    border: 3px solid;
+}
+
+.sapxeplaptop {
+    background-color: darkorange;
+    border: 2px;
+    font-style: italic;
+    color: blue;
+    margin-bottom: 100px;
+    ;
+}
+.fixslideshow{
+height: 470px;
+}
+/* 
+css của form đăng ký  */
+.formdangkytaikhoan{
+    padding-left: 150px;
+    border: solid=red;
+}
+.btn_dangnhaps_index{
+    margin-top: 15px;
+    color: blueviolet;
+    background-color: aliceblue;
+}
+.chumaudo{
+    color: red !important;
+}
+.ctltgioithieu{
+    border:solid chartreuse;
+}
+.bodermauvang{
+    border: solid yellow;
+}
+.fixvideodemo{
+    background-color: rgb(197, 245, 245);
+}
+.fixghichu{
+    height: 80px ;
+}
+.giohangbtndathang{
+    width: 150px !important;
+    height: 70px;
+}
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+
+#cangiuadmk{
+    margin-left: 450px;
+}#cangiuadn{
+    margin-left: 200px;
+}
+
+

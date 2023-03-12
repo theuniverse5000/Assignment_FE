@@ -1,0 +1,30 @@
+<center>
+<form class="row g-3"id="cangiuadmk">
+  <h1>Đổi mật khẩu tài khoản của bạn</h1>
+  <div class="col-md-7 formdangkytaikhoan">
+    <label for="inputEmail4" class="form-label">Tài khoản</label>
+    <input type="text" class="form-control" id="id" ng-model="id" placeholder="Tài khoản">
+    <label for="inputPassword4" class="form-label">Mật khẩu cũ</label>
+    <input type="password" class="form-control" id="oldPassword" ng-model="oldPassword" placeholder="Mật khẩu cũ">
+    <label for="inputPassword4" class="form-label">Mật khẩu mới</label>
+    <input type="password" class="form-control" id="newPassword" ng-model="newPassword" placeholder="Mật khẩu mới">
+    <label for="inputPassword4" class="form-label">Nhập lại mật khẩu</label>
+    <input type="password" class="form-control" id="reNewPassword" ng-model="reNewPassword"
+      placeholder="Nhập lại mật khẩu">
+
+    <!-- <div class="col-12">
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" id="gridCheck">
+        <label class="form-check-label" for="gridCheck">
+          Tôi không phải người máy
+        </label>
+      </div>
+    </div> -->
+    <p></p>
+    <div class="col-12">
+      <button type="submit" class="btn btn-primary"
+        ng-click="changePass(id,oldPassword,newPassword,reNewPassword)">Đổi</button>
+    </div>
+  </div>
+</form></center>
+<p></p>
